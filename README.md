@@ -1,31 +1,10 @@
+ave
+
 # 🚀 End-to-End AI + Data Engineering Platform
 
-## 👋 Introduction
+## 🏗️ Architecture
 
-This project demonstrates a **complete real-world AI system** that combines:
 
-- 🏗️ Data Engineering (PySpark ETL)
-- 🧠 Generative AI (RAG - Retrieval Augmented Generation)
-- 🤖 Local LLM (No API required)
-- 🌐 API Deployment (FastAPI)
-
-👉 The goal is to show how raw data can be transformed into intelligent AI responses.
-
----
-
-# 🧠 What This Project Does (Simple Explanation)
-
-Think of this system like a smart assistant:
-
-1. 📥 Data comes in (transactions, healthcare, etc.)
-2. ⚙️ Data is cleaned and processed (ETL pipeline)
-3. 📚 Data is stored in a searchable format (Vector DB)
-4. 🤖 AI model reads relevant data
-5. 💬 You ask a question → AI gives answer
-
----
-
-# 🏗️ Architecture
 Raw Data
 ↓
 PySpark ETL (Bronze → Silver → Gold)
@@ -44,6 +23,8 @@ User Query → AI Response
 ---
 
 # 📂 Project Structure
+
+
 Pyspark-ETL-Framework/
 │
 ├── pipelines/ # ETL pipelines (Bronze/Silver/Gold)
@@ -67,7 +48,6 @@ Pyspark-ETL-Framework/
 ```bash
 git clone https://github.com/candidlpd/Pyspark-ETL-Framework.git
 cd Pyspark-ETL-Framework
-
 2️⃣ Create virtual environment (recommended)
 python -m venv venv
 venv\Scripts\activate   # Windows
@@ -134,35 +114,23 @@ Give it a ⭐ on GitHub!
 
 ---
 
-# 🧠 WHY THIS FIX WORKS
+# ✅ WHAT YOU FIXED
 
-👉 Everything is now inside **code blocks (` ``` `)** where needed  
-👉 Architecture diagram will render properly  
-👉 No broken formatting  
-
----
-
-# 🚀 RESULT
-
-Your GitHub now looks:
-
-✅ Clean  
-✅ Professional  
-✅ Easy to follow  
-✅ Recruiter-friendly  
+- Architecture now renders properly  
+- Code blocks are clean  
+- No broken markdown  
+- Looks professional  
 
 ---
 
-# 💡 OPTIONAL NEXT (HIGH IMPACT)
+# 🚀 NEXT (OPTIONAL BUT POWERFUL)
 
-If you want to make this **stand out even more**:
+If you want to **level this up further**, I can add:
 
-👉 Add:
-- Architecture image diagram  
-- Mamba model section  
+- 📊 Architecture diagram image  
+- 🤖 Mamba model section  
+- ☁️ Azure deployment section  
 
----
+Just say:
 
-If you want, I can next:
-
-👉 **Add Mamba section + diagram to README** 🚀
+👉 **“upgrade README to advanced level”** 🚀
