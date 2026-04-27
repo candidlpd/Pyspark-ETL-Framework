@@ -7,3 +7,6 @@ venv/*
 loaded_data/*
 derby.log
 .DS_Store
+temp_repos/
+__pycache__/
+*.pyc
